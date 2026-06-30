@@ -507,23 +507,26 @@ VITE_FIREBASE_APP_ID=YOUR_APP_ID
 
 # 📸 Screenshots
 
-Add screenshots inside
+<img width="1917" height="912" alt="Screenshot 2026-06-30 104513" src="https://github.com/user-attachments/assets/40967c5d-1c8a-4309-b89f-c90827aeb0a5" />
 
-```
-/screenshots
-```
+<img width="1917" height="903" alt="Screenshot 2026-06-30 104538" src="https://github.com/user-attachments/assets/3103063e-ea02-4a73-9af6-76b73ac9a9c5" />
 
-Example
+<img width="1918" height="895" alt="Screenshot 2026-06-30 104548" src="https://github.com/user-attachments/assets/ec2beee4-dc93-4342-9539-13d9d5020d6a" />
 
-```
-screenshots/dashboard.png
+<img width="1918" height="907" alt="Screenshot 2026-06-30 104559" src="https://github.com/user-attachments/assets/06ae467a-9ce8-4a5f-900d-fb39846fe449" />
 
-screenshots/calendar.png
+<img width="1917" height="887" alt="Screenshot 2026-06-30 104608" src="https://github.com/user-attachments/assets/09daba0c-ddb3-4aa8-91af-e4223f7c65be" />
 
-screenshots/tasks.png
+<img width="1913" height="903" alt="Screenshot 2026-06-30 104616" src="https://github.com/user-attachments/assets/79b94662-ad45-45bb-abb4-6b6b6e3ffa6a" />
 
-screenshots/profile.png
-```
+<img width="1917" height="903" alt="Screenshot 2026-06-30 104625" src="https://github.com/user-attachments/assets/b3e8e59f-bca0-410c-bfd0-a8911a895a3d" />
+
+<img width="1918" height="895" alt="Screenshot 2026-06-30 104636" src="https://github.com/user-attachments/assets/b740dd14-0cbe-4d95-953a-fec33b9101df" />
+
+<img width="1918" height="907" alt="Screenshot 2026-06-30 104645" src="https://github.com/user-attachments/assets/9eec67ef-4e31-4a3b-ab7a-7ec54c958a44" />
+
+<img width="1918" height="901" alt="Screenshot 2026-06-30 104654" src="https://github.com/user-attachments/assets/361cf2f2-58aa-45e2-9390-f4d36d546e6c" />
+
 
 ---
 
