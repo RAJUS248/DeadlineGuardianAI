@@ -1,0 +1,6 @@
+{
+  "name": "Deadline Guardian AI",
+  "description": "An intelligent AI Productivity Agent that proactively plans your schedule, analyzes work habits, predicts failure risks, and generates step-by-step action plans to conquer deadlines.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

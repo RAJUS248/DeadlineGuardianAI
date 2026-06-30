@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg: #F8FAFC;
+  --card: #FFFFFF;
+  --sidebar: #FFFFFF;
+  --border: #E2E8F0;
+  --primary: #4F46E5;
+  --primary-hover: #4338CA;
+  --heading: #0F172A;
+  --body: #334155;
+  --secondary: #64748B;
+  --placeholder: #94A3B8;
+  --input-bg: #FFFFFF;
+  --input-border: #CBD5E1;
+  --input-text: #0F172A;
+  
+  --danger: #DC2626;
+  --warning: #F59E0B;
+  --success: #16A34A;
+}
+
+.dark {
+  --bg: #0F172A;
+  --card: #1E293B;
+  --sidebar: #111827;
+  --border: #334155;
+  --heading: #F8FAFC;
+  --body: #E2E8F0;
+  --secondary: #CBD5E1;
+  --placeholder: #94A3B8;
+  --input-bg: #0F172A;
+  --input-border: #475569;
+  --input-text: #F8FAFC;
+  --primary: #6366F1;
+  --primary-hover: #818CF8;
+}
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --color-brand-bg: var(--bg);
+  --color-brand-card: var(--card);
+  --color-brand-sidebar: var(--sidebar);
+  --color-brand-border: var(--border);
+  --color-brand-primary: var(--primary);
+  --color-brand-primary-hover: var(--primary-hover);
+  --color-brand-heading: var(--heading);
+  --color-brand-body: var(--body);
+  --color-brand-secondary: var(--secondary);
+  --color-brand-placeholder: var(--placeholder);
+  --color-brand-input-bg: var(--input-bg);
+  --color-brand-input-border: var(--input-border);
+  --color-brand-input-text: var(--input-text);
+  
+  --color-brand-danger: var(--danger);
+  --color-brand-warning: var(--warning);
+  --color-brand-success: var(--success);
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--body);
+    @apply font-sans antialiased;
+    line-height: 1.625;
+    scrollbar-width: none; /* Hide standard scrollbar in Firefox */
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  body, body *, aside, aside *, main, main *, header, header *, nav, nav * {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom global focus states */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+.dark input:focus, .dark select:focus, .dark textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+
