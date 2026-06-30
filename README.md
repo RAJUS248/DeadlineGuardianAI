@@ -616,11 +616,11 @@ AI | Full Stack Development | Machine Learning | Data Structures & Algorithms
 
 GitHub
 
-https://github.com/YOUR_USERNAME
+https://github.com/RAJUS248
 
 LinkedIn
 
-https://linkedin.com/in/YOUR_PROFILE
+https://www.linkedin.com/in/rajubaradur24/
 
 ---
 
