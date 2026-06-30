@@ -23,13 +23,13 @@ Unlike traditional to-do applications, Deadline Guardian AI acts as an intellige
 
 **Firebase Hosting**
 
-https://deadlineguardianai.web.app
+https://genai-workshop-2428.web.app/
 
 ---
 
 # 📂 GitHub Repository
 
-https://github.com/YOUR_USERNAME/deadline-guardian-ai
+https://github.com/RAJUS248/DeadlineGuardianAI
 
 ---
 
